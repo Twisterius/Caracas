@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caracas</title>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
+  <script>
+      $(function(){
+        $('#select').select2({
+          // specify tags
+          tags: ["brutality", "empowerment", "trending", "protests", "corruption", "dailystruggle"]
+        });
+      });
+  </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <style>
+      body {
+        padding: 40px;
+      }
+    </style> </head>
+
+<body>
+
+<input type="hidden" id="select" style="width:300px" >
+
+</body>
+</html>
