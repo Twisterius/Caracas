@@ -3,15 +3,33 @@
 body {
   padding:40px;
   font-family: 'Lato', Arial, sans-serif;
-
 }
 
 h1 {
 	text-align:center;
 }
 
+
 #select_container {
-	display:block;
-	padding-top:100px;
-	text-align:center;
+	padding-top:50px;
+}
+
+.input-group{
+  width:300px;
+  text-align:center;
+  margin: auto;
+}
+
+.search_input{
+  width: 100%;
+  border: none;
+  display: inline-block;
+  box-shadow: none;
+  text-align: center;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #666666;
+  border-radius: 4px;
 }
