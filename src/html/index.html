@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Caracas</title>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
-  <script>
-      $(function(){
-        $('#select').select2({
-          // specify tags
-          tags: ["brutality", "empowerment", "trending", "protests", "corruption", "dailystruggle"]
+  <head>
+    <meta charset="UTF-8">
+    <title>OJOS VEN</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
+    <script>
+        $(function(){
+          $('#select').select2({
+            // specify tags
+            tags: ["brutality", "empowerment", "trending", "protests", "corruption", "dailystruggle"]
+          });
         });
-      });
-  </script>
+    </script>
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../css/main.css">
-</head>
-<body>
+      <link rel="stylesheet" href="../css/main.css">
+  </head>
 
-<h1>Caracas</h1>
 
-<input type="hidden" id="select" style="width:300px" >
+  <body>
+    <h1>OJOS VEN</h1>
 
-</body>
+    <div id="select_container">
+      <input type="hidden" id="select" style="width:300px" >
+    </div>
+
+  </body>
+
+
+
 </html>
