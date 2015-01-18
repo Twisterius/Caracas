@@ -1,5 +1,4 @@
 
-
 body {
   padding:40px;
   font-family: 'Lato', Arial, sans-serif;
@@ -8,7 +7,6 @@ body {
 h1 {
 	text-align:center;
 }
-
 
 #select_container {
 	padding-top:50px;
@@ -26,6 +24,7 @@ h1 {
   display: inline-block;
   box-shadow: none;
   text-align: center;
+  border-radius: 4px;
 }
 
 .btn {
