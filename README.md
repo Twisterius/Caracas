@@ -30,7 +30,7 @@ A web app designed to allow citizens to tackle video-sharing/live-reporting for 
 ##Node_Modules##
 Reference for [initializing Node](https://github.com/msyinmei/notes4codes/blob/master/JavaScript/JavaScript_Init.md)
 
-What's listed Under .gitignore (node_modules)
+What's listed in node_modules (.gitignore)
 
 - bcrypt
 - body-parser
