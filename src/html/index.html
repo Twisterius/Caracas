@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>OJOS VEN</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
+    <script>
+        $(function(){
+          $('#select').select2({
+            // specify tags
+            tags: ["brutality", "empowerment", "trending", "protests", "corruption", "dailystruggle"]
+          });
+        });
+    </script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" href="../css/main.css">
+  </head>
+
+
+  <body>
+    <h1>OJOS VEN</h1>
+
+    <div id="select_container">
+        <div class="col-lg-6 input-group">
+          <span class="input-group-btn">
+            <button class="btn">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+          <input type="hidden" placeholder="Search by location or topic" id="select" class="search_input">
+        </div>
+    </div>
+  </body>
+
+</html>

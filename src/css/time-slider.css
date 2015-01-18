@@ -1,0 +1,96 @@
+html, body {   max-width: 100%; max-height:100%;
+    overflow-x: hidden;
+}
+
+  .ui-slider-horizontal .ui-state-default {
+  background: black;
+  height:40px;
+  width:70px;
+  opacity:.3;
+  border-radius:8px;
+  cursor: crosshair;
+  }
+
+#slider {
+  width: 100%;
+  top:0px;
+  opacity:.3;
+  position:absolute;
+  height:35px;
+  text-align: center;
+}
+
+.view-pane {
+  width: 100000px;
+}
+
+span.glyphicon-play-circle {
+    font-size: 8.2em;
+    display: block;
+    color: white;
+    padding-top:20px;
+    text-align:center;
+    margin: auto;
+}
+
+.vid-container
+{
+  width:100%;
+  opacity:.2;
+}
+
+.meta-data {
+    display:block;
+    padding-top:40px;
+    color:white;
+    font-size: 15px;
+    padding-left:70px;
+}
+
+.vid {
+  height:250px;
+  width:480px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 3px;
+  border-color:black;
+  border-radius:8px;
+  display: flex;
+  align-items: center;
+  position:absolute;
+  margin-top:50px;
+}
+            svg {
+                display: block;
+                margin: 0 auto;
+            }
+            .axis path, .axis line {
+                fill: none;
+                stroke: #575757;
+                shape-rendering: crispEdges;
+            }
+            .tick text {
+                fill: #575757;
+                font-size: 10px;
+            }
+            text, tspan {
+                font-family: sans-serif;
+                font-size: 14px;
+                dominant-baseline: central;
+            }
+            text.code-text {
+                font-family: monospace;
+            }
+            text.alert-text {
+                font-weight: bold;
+                fill: #7F0000;
+            }
+            text.legend {
+                font-weight: bold;
+            }
+            text.legend-label {
+                font-size: 12px;
+            }
+            tspan {
+                font-weight: bold;
+            }
