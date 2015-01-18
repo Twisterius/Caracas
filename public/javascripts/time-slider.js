@@ -1,3 +1,5 @@
+
+
 function getTime(value) {
   return value
 }
@@ -65,6 +67,6 @@ $(function(){
         $(this).fadeTo(100,.2)
   })
   $('.vid-container').click(function(){
-    window.location = "video.html"
+    window.location = "video"
   })
 })
