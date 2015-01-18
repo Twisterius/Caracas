@@ -27,6 +27,10 @@ app.get('/video', function(req, res){
     res.render('video');
 });
 
+app.get('/time_slider', function(req, res){
+    res.render('time_slider');
+});
+
 //Set up server to listen for PORT or localhost:3000
 var server = app.listen(process.env.PORT || 3000, function() {
     console.log('Listening on port %d', server.address().port);
