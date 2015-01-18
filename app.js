@@ -23,6 +23,10 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
+app.get('/video', function(req, res){
+    res.render('video');
+});
+
 //Set up server to listen for PORT or localhost:3000
 var server = app.listen(process.env.PORT || 3000, function() {
     console.log('Listening on port %d', server.address().port);

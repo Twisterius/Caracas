@@ -1,0 +1,48 @@
+<% include ../views/partials/header %>
+<% include ../views/partials/navbar %>
+
+<div class="container-fluid container-video-full">
+
+<div id="video_pattern"></div>
+
+    <video id="video_background" preload="auto" autoplay loop muted volume="0">
+      <source src="/videos/Venezuela_riots_new_clashes_erupt_during_protests_in_Caracas.mp4" type='video/mp4" type="video/mp4"/>
+  </video>
+
+<!-- <video id="really-cool-video" class="video-js vjs-default-skin" controls
+ preload="auto" width="640" height="264" poster="really-cool-video-poster.jpg"
+ data-setup='{}'>
+  <source src="/videos/Venezuela_riots_new_clashes_erupt_during_protests_in_Caracas.mp4" type='video/mp4'>
+  <source src="really-cool-video.webm" type='video/webm'>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser
+    that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video> -->
+
+
+
+
+</div>
+
+
+<script>
+
+$(function() {
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show('https://www.youtube.com/watch?v=88yP_20Lgqg');
+});
+
+//   var player = videojs('really-cool-video', { /* Options */ }, function() {
+//   console.log('Good to go!');
+//   this.play(); // if you don't trust autoplay for some reason
+//   // How about an event listener?
+//   this.on('ended', function() {
+//     console.log('awww...over so soon?');
+//   });
+// });
+</script>
+<% include ../views/partials/footer %>
+
+
