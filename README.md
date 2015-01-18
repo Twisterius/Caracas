@@ -23,4 +23,34 @@ A web app designed to allow citizens to tackle video-sharing/live-reporting for 
 - BootStrap
 - AngularJS
 - SockJS
+- NodeJS
+- ExpressJS
+
+
+##Node_Modules##
+Under .gitignore (node_modules)
+
+- bcrypt
+- body-parser
+- connect-flash
+- cookie-parser
+- cookie-session
+- ejs
+- express
+- lodash
+- method-override
+- passport
+- passport-local
+- pg
+- request
+- sequelize
+- sequelize-cli
+
+Changes:
+SRC File to Public
+Views with Partials
+404.ejs
+index.ejs
+route.js
+app.js
 
